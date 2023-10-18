@@ -2,9 +2,12 @@
 
 #Sring
 #Kiểu dữ liệu string sẽ luôn nằm trong ""
-print("Hello"[4]) #Ta có thể lấy được index của từng ký tự trong kiểu string
+print("Hello"[4]) 
+#Ta có thể lấy được index của từng ký tự trong kiểu string
+#Nếu sử dụng len đối với kiểu dữ liệu khác sẽ gây ra lỗi
 print(len("Hello"))
-print("123" + "456") #output: 123456 
+print("123" + "456") 
+#output: 123456 
 #Bởi nằm trong ngoặc kép "" nên 123 và 456 không phải là số mà là chuỗi
 
 #Integer
