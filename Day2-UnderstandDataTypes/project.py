@@ -7,4 +7,4 @@ tip_percentage = float(input("What percentage tip would like to give? "))
 split_bill = int(input("How many people to split the bill? "))
 
 person_pay = (total_bill + ((total_bill/100) * tip_percentage)) / split_bill
-print(f"Each person should pay: {round(person_pay, 2)}")
+print(f"Each person should pay: ${round(person_pay, 2)}")
