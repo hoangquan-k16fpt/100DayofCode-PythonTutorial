@@ -15,5 +15,10 @@ weight = input("Enter your weight:\t")
 weight = float(weight)
 height = float(height)
 
-bmi = weight / height ** 2
+bmi = weight / (height ** 2)
+
+#Ta cần chuyển chỉ số BMI về dạng integer để làm tròn
+bmi = int(bmi)
+
 print("Your BMI: " + str(bmi))
+
