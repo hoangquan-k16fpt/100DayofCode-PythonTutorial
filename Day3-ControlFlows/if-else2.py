@@ -8,10 +8,20 @@ if your_height > 120:
     age = int(input("Enter your age: "))
     #Chú ý khi sử dụng lệnh điều kiện có elif thì để tối giản code cần kiểm tra flow xem có hợp lý hay không, một ví dụ minh họa:
     if age <= 12:
-        print("Please pay $5.")
+        bill = 5
+        print("Children ticket: $5.")
     elif age <= 18:
-        print("Please pay $7.")
-    else :
-        print("Please pay $12.")
+        bill = 7
+        print("Youth ticket: $7.")
+    else:
+        bill = 12
+        print("Adult ticket: $12.")
+    
+    #Ở đây chúng ta sẽ sử dụng kiểm tra điều kiện if thêm 1 lần nữa. 
+    #Sự khác biệt ở đây là nếu chúng ta sử dụng if liên tục thì cho dù lệnh if ở trên có đúng hay không thì lệnh if ở dưới vẫn sẽ được thực thi
+    takephoto = input("Do you want to take a photo? (y/n): ")
+    if takephoto == "y":
+        bill += 3
+    print(f"Your total bill is ${bill}") 
 else: 
     print("Sorry, you have to grow taller before you can ride")
