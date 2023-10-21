@@ -19,6 +19,11 @@ print(my_module.pi)
 #Tiếp theo chúng ta sẽ làm quen với việc random float trong Python
 #Ở Python random float sẽ chỉ cho giá trị chạy từ 0 - 1
 #Vậy câu hỏi đặt ra là làm thế nào để có thể tăng range của việc random float? Chúng ta sẽ sử dụng random_float*x (trong đó x là range mà chúng ta muốn tăng)
+#Ở đây chúng ta sẽ tăng giới hạn của random là từ 0.00000... - 4.999999...., random sẽ theo kiểu float 
 random_float = random.random()
 random_float = random_float *5
 print(random_float)
+
+#Ta có thể tạo điểm số tình yêu ngẫu nhiên từ 1 đến 100 như sau:
+love_score = random.randint(1,100)
+print(f"Your love score is {love_score}")
