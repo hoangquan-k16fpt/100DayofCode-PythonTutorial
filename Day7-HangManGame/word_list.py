@@ -1,0 +1,20 @@
+list = [
+    "python", "hangman", "programming", "computer", "science",
+    "algorithm", "artificial", "intelligence", "machine", "learning",
+    "data", "structure", "function", "variable", "iteration",
+    "recursion", "encapsulation", "inheritance", "polymorphism",
+    "abstraction", "boolean", "conditional", "loop", "syntax",
+    "error", "debugging", "iteration", "list", "dictionary",
+    "tuple", "set", "class", "object", "method", "attribute",
+    "module", "package", "import", "exception", "try", "except",
+    "finally", "raise", "assert", "lambda", "map", "filter",
+    "reduce", "sort", "algorithm", "binary", "search", "merge",
+    "bubble", "quick", "sort", "dynamic", "programming", "greedy",
+    "tree", "graph", "queue", "stack", "linked", "list", "hash",
+    "table", "binary", "tree", "binary", "search", "tree", "depth",
+    "first", "search", "breadth", "first", "search", "graph",
+    "algorithm", "hash", "function", "iteration", "recursive",
+    "function", "palindrome", "anagram", "algorithm", "interface",
+    "GUI", "console", "input", "output", "file", "stream",
+    "socket", "network", "protocol", "encryption", "decryption"
+]
