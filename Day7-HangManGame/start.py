@@ -15,7 +15,7 @@ chosen_word = random.choice(word_list)
 display = []
 for _ in range(len(chosen_word)):
     display += "_"
-print(display)
+print(f"{' '.join(display)}")
 
 isEnd = False
 lives = 6
@@ -25,13 +25,15 @@ while not isEnd:
     for position in range(len(chosen_word)):
         if chosen_word[position] == user_chosen:
             display[position] = user_chosen
-    print(display)
+    print(f"{' '.join(display)}")
     if user_chosen not in chosen_word:
         lives -= 1
         if lives == 0:
             isEnd = True
             print("You lose!")
+            print(f"Result is: {chosen_word.upper()}")
     if "_" not in display:
         isEnd = True
         print("You won!")
     print(stages[6 - lives])
+    
