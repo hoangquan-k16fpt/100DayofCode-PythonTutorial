@@ -70,9 +70,11 @@ def main_game():
     print(result)
     new_game = input("Do you want start a new game? (y/n): ")
     if new_game == "y":
+        print("--------------------------------")
         main_game()
     else:
         print("GOOD BYE!")
 
 if __name__ == "__main__":
     main_game()
+    
